@@ -1,0 +1,66 @@
+#bodyadminpanel {
+    background-color: rgba(240, 240, 240, 0.9);
+}
+
+#admincontainer {
+    position: relative;
+    padding-top: 20px;
+}
+
+#adminrow1 {
+    padding-bottom: 20px;
+}
+
+#adminrow2 {
+    padding-bottom: 20px;
+}
+
+#adminrow3 {
+    padding-bottom: 20px;
+}
+
+.btn-block {
+    height: 120px;
+    color: black;
+    transition: border 0.2s ease;
+}
+
+.btn-block:hover {
+    border: 10px solid #81D9FF;
+    cursor: pointer;
+    color: white;
+}
+
+#adminbutton {
+    background-color: rgba(48, 135, 151, 0.9);
+    text-align: center;
+    vertical-align: center;
+}
+
+#logoutbutton {
+    background-color: orange;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-nav {
+    padding-left: 30px;
+}
+
+.navbar-brand {
+    padding-left: 30px;
+}
+
+#copyright {
+    place-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    #footer-text{
+        font-size: 4vw;
+    }
+}

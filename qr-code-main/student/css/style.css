@@ -1,0 +1,13 @@
+
+body{
+    background-color: rgb(174, 193, 235)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+@media (min-width: 900px){
+    
+    }
